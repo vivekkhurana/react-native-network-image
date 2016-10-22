@@ -1,6 +1,6 @@
 {
 	"name": "react-native-network-image",
-	"version": "0.1",
+	"version": "0.0.1",
 	"description": "React Native component to display image rom network and resize.",
 	"main": "index.js",
 	"scripts": {
