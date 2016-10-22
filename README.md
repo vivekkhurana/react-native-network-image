@@ -23,9 +23,14 @@ calcImage(downlodImageWidth,downloadImageHeight){
 Call NetworkedImage componenet in your render method
 
 ```
-//pass the image dimension calculation function in the callback prop
-<NetworkedImage source={{uri:imageURI}} 
+render(){
+	return (
+		<View>
+		//pass the image dimension calculation function in the callback prop
+		<NetworkedImage source={{uri:imageURI}} 
                              resizeMode={Image.resizeMode.contain} 
                             callback={this.calcImage} />
-
+		</View>
+	)
+}	
 ```
