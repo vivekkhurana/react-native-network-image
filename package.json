@@ -1,0 +1,21 @@
+{
+	name: "react-native-network-image",
+	version: "1.0.0",
+	description: "React Native component to display image rom network and resize.",
+	main: "index.js",
+	scripts: {
+		test: "echo "Error: no test specified" && exit 1"
+	},
+	keywords: [
+		"Multistep",
+		"Wizard",
+  		"android",
+		"ios"
+	],
+	author: "Vivek Khurana",
+	license: "MIT",
+	repository: {
+		type: "git",
+		url: "git+https@github.com:vivekkhurana/react-native-network-image.git"
+	}
+}
